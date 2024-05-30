@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-05-29 16:02:29 by Eclipse SUMO duarouter Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="map.net.xml"/>
+        <route-files value="delivery_trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="delivery_routes.rou.xml"/>
+        <alternatives-output value="delivery_routes.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="delivery" vClass="delivery" color="115,211,230"/>
+    <vehicle id="deliv0" type="delivery" depart="0.00">
+        <route edges="373750235 -323204750#3 183766545#1 183766545#2 -183766545#2"/>
+    </vehicle>
+    <vehicle id="deliv1" type="delivery" depart="30.00">
+        <route edges="-840059240#1 -840059240#0 -840059241 840059241 840059240#0 840059240#1 840059240#2 317468833 840059237#1 317468471 218991136#1 408821095#0 -408821095#0"/>
+    </vehicle>
+    <vehicle id="deliv2" type="delivery" depart="60.00">
+        <route edges="373750633#0 -840059244 183766545#0 323204750#3 97552111#0 97552111#1 373750238#5 373750238#0 373750238#1 373750241 373750240"/>
+    </vehicle>
+    <vehicle id="deliv3" type="delivery" depart="90.00">
+        <route edges="840059244 -840059244 183766545#0 -323204750#2 -218991073#4"/>
+    </vehicle>
+    <vehicle id="deliv4" type="delivery" depart="120.00">
+        <route edges="183766545#0 -323204750#2 -218991073#4 -218991073#3 -218991073#2 -218991073#1 -192225646#0"/>
+    </vehicle>
+    <vehicle id="deliv6" type="delivery" depart="180.00">
+        <route edges="-183766545#2 -183766545#1 -323204750#2"/>
+    </vehicle>
+    <vehicle id="deliv7" type="delivery" depart="210.00">
+        <route edges="373750237 97552102 373750238#2 373750238#3 373750235 -323204750#3 -323204750#2 373750633#0 373750633#1 -408821095#0 -218991136#1 218991136#1"/>
+    </vehicle>
+    <vehicle id="deliv11" type="delivery" depart="330.00">
+        <route edges="-840066117 -97552125#0 97552102 373750238#2 373750238#3 373750235 -323204750#3 -323204750#2 373750633#0 373750633#1 -408821095#0 -218991136#1 -317468471"/>
+    </vehicle>
+    <vehicle id="deliv12" type="delivery" depart="360.00">
+        <route edges="97552081#1 -97552081#1 -97552081#0 373750240 373750238#3 373750238#4 373750238#5 373750238#0 373750237 97552125#0 840066117 -840066117"/>
+    </vehicle>
+    <vehicle id="deliv13" type="delivery" depart="390.00">
+        <route edges="-218991073#4 218991073#4 323204750#2 323204750#3 97552111#0 97552111#1 373750238#5 373750238#0 373750237 97552125#0 840066117 -218991086#0"/>
+    </vehicle>
+    <vehicle id="deliv15" type="delivery" depart="450.00">
+        <route edges="840059237#0 840059237#1 840059237#2 840059238#0 373750633#4"/>
+    </vehicle>
+    <vehicle id="deliv16" type="delivery" depart="480.00">
+        <route edges="218991117 218991073#4 323204750#2 323204750#3 97552111#0 97552111#1"/>
+    </vehicle>
+    <vehicle id="deliv17" type="delivery" depart="510.00">
+        <route edges="-97552081#0 373750240 373750238#3 373750235 -323204750#3 -323204750#2 373750633#0 373750633#1 373750633#2 373750633#3 -840059238#0 -840059237#2 317468471"/>
+    </vehicle>
+    <vehicle id="deliv20" type="delivery" depart="600.00">
+        <route edges="373750238#4 373750238#5 373750238#0 373750238#1 373750238#2 373750238#3 373750235 -323204750#3 -323204750#2 -218991073#4 -218991073#3 -218991015"/>
+    </vehicle>
+    <vehicle id="deliv21" type="delivery" depart="630.00">
+        <route edges="-840059237#2 -840059237#1 -317468833 -840059240#2 -840059240#1"/>
+    </vehicle>
+    <vehicle id="deliv22" type="delivery" depart="660.00">
+        <route edges="-218991073#3 -218991073#2 -839036438"/>
+    </vehicle>
+    <vehicle id="deliv23" type="delivery" depart="690.00">
+        <route edges="-218991086#1 -840066117 -97552125#0 97552102 373750238#2 373750238#3 373750235 -323204750#3 -323204750#2 373750633#0 373750633#1 373750633#2 373750633#3 373750633#4 840059241 840059240#0 840059240#1 -840059240#1 -840059240#0"/>
+    </vehicle>
+    <vehicle id="deliv24" type="delivery" depart="720.00">
+        <route edges="323204750#3 97552111#0 97552111#1 373750238#5 373750238#0 373750238#1 373750241 97552081#0 -840115319#1 -840207176#0"/>
+    </vehicle>
+    <vehicle id="deliv25" type="delivery" depart="750.00">
+        <route edges="-840207176#1 840115319#1 -97552081#0 373750240 373750238#3 373750235 -323204750#3"/>
+    </vehicle>
+    <vehicle id="deliv27" type="delivery" depart="810.00">
+        <route edges="373750237"/>
+    </vehicle>
+    <vehicle id="deliv28" type="delivery" depart="840.00">
+        <route edges="-323204750#1 -323204750#0 323204750#0 323204750#1 373750633#0 373750633#1 373750633#2 373750633#3 373750633#4"/>
+    </vehicle>
+    <vehicle id="deliv29" type="delivery" depart="870.00">
+        <route edges="-323204750#1 -323204750#0 323204750#0 323204750#1 323204750#2 323204750#3 97552111#0 97552111#1 373750238#5 373750238#0 373750238#1 373750241 97552081#0 -97552081#0"/>
+    </vehicle>
+    <vehicle id="deliv30" type="delivery" depart="900.00">
+        <route edges="97552111#1 373750238#5 373750238#0 373750238#1 373750238#2"/>
+    </vehicle>
+    <vehicle id="deliv32" type="delivery" depart="960.00">
+        <route edges="840059240#0 840059240#1 840059240#2 317468833 840059237#1 840059237#2"/>
+    </vehicle>
+    <vehicle id="deliv34" type="delivery" depart="1020.00">
+        <route edges="-840059243 373750633#1 373750633#2 373750633#3 -840059238#0"/>
+    </vehicle>
+    <vehicle id="deliv36" type="delivery" depart="1080.00">
+        <route edges="840059241 840059240#0 840059240#1 -840059240#1 -840059240#0 -840059241"/>
+    </vehicle>
+    <vehicle id="deliv37" type="delivery" depart="1110.00">
+        <route edges="373750237 97552102 373750241 97552081#0 97552081#1 -97552081#1"/>
+    </vehicle>
+    <vehicle id="deliv38" type="delivery" depart="1140.00">
+        <route edges="840115319#1 -97552081#0 373750240 373750238#3 373750235 -323204750#3 -323204750#2 -218991073#4 -218991073#3 -218991073#2 -218991073#1 192225646#1"/>
+    </vehicle>
+    <vehicle id="deliv39" type="delivery" depart="1170.00">
+        <route edges="-840059240#0 -840059241 840059241 840059240#0 840059240#1 840059240#2 317468833 840059237#1 -840059237#1"/>
+    </vehicle>
+    <vehicle id="deliv40" type="delivery" depart="1200.00">
+        <route edges="218991136#1 408821095#0 373750633#2 373750633#3 -840059238#0 -840059237#2"/>
+    </vehicle>
+    <vehicle id="deliv42" type="delivery" depart="1260.00">
+        <route edges="-97552081#2 -97552081#1 -97552081#0 373750240 373750238#3 373750235 -323204750#3 -323204750#2 373750633#0 373750633#1 -408821095#0"/>
+    </vehicle>
+    <vehicle id="deliv43" type="delivery" depart="1290.00">
+        <route edges="97552125#0 -97552125#0 97552102 373750238#2 373750238#3 373750235 -323204750#3 -323204750#2 373750633#0 373750633#1 373750633#2 373750633#3 373750633#4 840059241 840059240#0 840059240#1 218991107#0"/>
+    </vehicle>
+    <vehicle id="deliv44" type="delivery" depart="1320.00">
+        <route edges="-218991073#4 -218991073#3 -218991015"/>
+    </vehicle>
+    <vehicle id="deliv46" type="delivery" depart="1380.00">
+        <route edges="839036438 218991073#2 218991073#3 218991073#4 323204750#2 183766545#1"/>
+    </vehicle>
+    <vehicle id="deliv47" type="delivery" depart="1410.00">
+        <route edges="-218991073#1 218991073#1 218991073#2 218991073#3 218991073#4 323204750#2 323204750#3 97552111#0 97552111#1 373750238#5 373750238#0 373750238#1 373750241 97552081#0 -97552081#0"/>
+    </vehicle>
+    <vehicle id="deliv48" type="delivery" depart="1440.00">
+        <route edges="97552125#0 -97552125#0 97552102 373750238#2 373750238#3 373750235 -323204750#3 183766545#1 218991117"/>
+    </vehicle>
+    <vehicle id="deliv49" type="delivery" depart="1470.00">
+        <route edges="97552102 373750238#2 373750238#3 373750235 -323204750#3 -323204750#2 373750633#0 373750633#1 373750633#2 373750633#3 373750633#4 840059241"/>
+    </vehicle>
+    <vehicle id="deliv50" type="delivery" depart="1500.00">
+        <route edges="-183766545#1 -323204750#2 373750633#0 373750633#1 373750633#2 373750633#3"/>
+    </vehicle>
+    <vehicle id="deliv51" type="delivery" depart="1530.00">
+        <route edges="373750238#2 373750238#3 373750235 -323204750#3 183766545#1 218991117"/>
+    </vehicle>
+    <vehicle id="deliv54" type="delivery" depart="1620.00">
+        <route edges="192225646#0 218991073#1 218991073#2 218991073#3 218991073#4 323204750#2 323204750#3 97552111#0 97552111#1 373750238#5 373750238#0 373750237 97552102"/>
+    </vehicle>
+    <vehicle id="deliv55" type="delivery" depart="1650.00">
+        <route edges="840059240#3 -840059240#3 317468833 840059237#1 840059237#2 840059238#0 -840059238#0 -840059237#2"/>
+    </vehicle>
+    <vehicle id="deliv56" type="delivery" depart="1680.00">
+        <route edges="218991073#3 218991073#4 373750633#0 373750633#1 373750633#2 373750633#3 -840059238#0 -840059237#2 -840059237#1 -317468833"/>
+    </vehicle>
+    <vehicle id="deliv57" type="delivery" depart="1710.00">
+        <route edges="840115319#0 840115319#1 -97552081#0 373750240 373750238#3 373750235 -323204750#3 -323204750#2 373750633#0 840059243"/>
+    </vehicle>
+    <vehicle id="deliv59" type="delivery" depart="1770.00">
+        <route edges="323204750#0 323204750#1 373750633#0 373750633#1 -408821095#0 -218991136#1 -317468471"/>
+    </vehicle>
+    <vehicle id="deliv60" type="delivery" depart="1800.00">
+        <route edges="373750633#3 -840059238#0 -840059237#2 317468471 218991136#1"/>
+    </vehicle>
+    <vehicle id="deliv62" type="delivery" depart="1860.00">
+        <route edges="-183766545#0 840059244 -840059244"/>
+    </vehicle>
+    <vehicle id="deliv63" type="delivery" depart="1890.00">
+        <route edges="-183766545#2 -183766545#1 323204750#3 97552111#0 97552111#1 373750238#5 373750238#0 373750238#1 373750241 97552081#0"/>
+    </vehicle>
+    <vehicle id="deliv64" type="delivery" depart="1920.00">
+        <route edges="840059241 840059240#0 840059240#1 840059240#2"/>
+    </vehicle>
+    <vehicle id="deliv67" type="delivery" depart="2010.00">
+        <route edges="-218991073#3 218991073#3"/>
+    </vehicle>
+    <vehicle id="deliv68" type="delivery" depart="2040.00">
+        <route edges="-218991073#2 218991073#2 218991073#3 218991073#4 373750633#0 373750633#1 408821095#1"/>
+    </vehicle>
+    <vehicle id="deliv69" type="delivery" depart="2070.00">
+        <route edges="373750633#3 -840059238#0 -840059237#2 317468471 -218991136#0"/>
+    </vehicle>
+    <vehicle id="deliv70" type="delivery" depart="2100.00">
+        <route edges="218991073#0 218991073#1 218991073#2 218991073#3 218991073#4 373750633#0 373750633#1 373750633#2 373750633#3 -840059238#0 -840059237#2 317468471"/>
+    </vehicle>
+    <vehicle id="deliv72" type="delivery" depart="2160.00">
+        <route edges="183766545#0 323204750#3 -323204750#3"/>
+    </vehicle>
+    <vehicle id="deliv73" type="delivery" depart="2190.00">
+        <route edges="218991117 218991073#4 373750633#0 373750633#1 373750633#2 373750633#3 373750633#4"/>
+    </vehicle>
+    <vehicle id="deliv74" type="delivery" depart="2220.00">
+        <route edges="-408821095#1 373750633#2 373750633#3 373750633#4 840059241 840059240#0 840059240#1 -840059240#1 -840059240#0 -840059241"/>
+    </vehicle>
+    <vehicle id="deliv75" type="delivery" depart="2250.00">
+        <route edges="97552125#0 -97552125#0 97552102 373750238#2 373750238#3"/>
+    </vehicle>
+    <vehicle id="deliv76" type="delivery" depart="2280.00">
+        <route edges="183766545#2 -183766545#2 218991117 218991073#4 373750633#0 373750633#1 373750633#2 373750633#3 373750633#4 840059241 840059240#0 840059240#1 218991107#0"/>
+    </vehicle>
+    <vehicle id="deliv77" type="delivery" depart="2310.00">
+        <route edges="-218991107#1 -218991107#0 840059240#2 317468833 840059237#1 317468471 218991136#1 408821095#0 -408821095#0"/>
+    </vehicle>
+    <vehicle id="deliv78" type="delivery" depart="2340.00">
+        <route edges="-840066117 -97552125#0 97552102 373750238#2 373750238#3 373750235 -323204750#3 323204750#3"/>
+    </vehicle>
+    <vehicle id="deliv79" type="delivery" depart="2370.00">
+        <route edges="-840059238#0 -840059237#2 317468471 218991136#1 408821095#0 -408821095#0"/>
+    </vehicle>
+    <vehicle id="deliv80" type="delivery" depart="2400.00">
+        <route edges="-218991073#2 218991073#2 218991073#3 218991073#4 323204750#2 323204750#3 97552111#0 97552111#1 373750238#5 373750238#0 373750238#1"/>
+    </vehicle>
+    <vehicle id="deliv84" type="delivery" depart="2520.00">
+        <route edges="-840059237#1 840059237#1 317468471 218991136#1 408821095#0 -408821095#0 -218991136#1"/>
+    </vehicle>
+    <vehicle id="deliv85" type="delivery" depart="2550.00">
+        <route edges="840207176#1 -97552125#0 97552102 373750238#2 373750238#3 373750235 -323204750#3 -323204750#2 -323204750#1 -323204750#0 323204750#0 323204750#1"/>
+    </vehicle>
+    <vehicle id="deliv86" type="delivery" depart="2580.00">
+        <route edges="218991073#0 218991073#1 218991073#2 218991073#3 218991073#4 373750633#0 373750633#1 373750633#2 373750633#3 -840059238#0 -840059237#2 840059237#2 840059238#0"/>
+    </vehicle>
+    <vehicle id="deliv88" type="delivery" depart="2640.00">
+        <route edges="-218991086#1 -840066117 -97552125#0 97552102 373750238#2 373750238#3 373750235 -323204750#3 183766545#1 183766545#2"/>
+    </vehicle>
+    <vehicle id="deliv89" type="delivery" depart="2670.00">
+        <route edges="183766545#0 -323204750#2 -218991073#4 -218991073#3 -218991073#2 -218991073#1 218991073#1"/>
+    </vehicle>
+    <vehicle id="deliv90" type="delivery" depart="2700.00">
+        <route edges="373750241 373750240"/>
+    </vehicle>
+    <vehicle id="deliv91" type="delivery" depart="2730.00">
+        <route edges="97552111#1 373750238#5 373750238#0 373750237 97552125#0 840066117 -218991086#0"/>
+    </vehicle>
+    <vehicle id="deliv92" type="delivery" depart="2760.00">
+        <route edges="-97552125#0 97552125#0 840066117 -840066117"/>
+    </vehicle>
+    <vehicle id="deliv93" type="delivery" depart="2790.00">
+        <route edges="840059240#2 317468833 840059237#1 -840059237#1"/>
+    </vehicle>
+    <vehicle id="deliv94" type="delivery" depart="2820.00">
+        <route edges="-323204750#3 183766545#1 183766545#2 192225646#0"/>
+    </vehicle>
+    <vehicle id="deliv95" type="delivery" depart="2850.00">
+        <route edges="183766545#0 -323204750#2 373750633#0 373750633#1 373750633#2 373750633#3 373750633#4 840059241 840059240#0 840059240#1 -840059240#1 -840059240#0"/>
+    </vehicle>
+    <vehicle id="deliv97" type="delivery" depart="2910.00">
+        <route edges="183766545#2 -183766545#2 218991117 218991073#4 373750633#0 373750633#1 373750633#2 373750633#3 373750633#4 840059241"/>
+    </vehicle>
+    <vehicle id="deliv99" type="delivery" depart="2970.00">
+        <route edges="97552125#0 -97552125#0 97552102 373750238#2 373750238#3 373750235 -323204750#3 -323204750#2 373750633#0 373750633#1 373750633#2 373750633#3 373750633#4 840059241 840059240#0 840059240#1 840059240#2"/>
+    </vehicle>
+    <vehicle id="deliv100" type="delivery" depart="3000.00">
+        <route edges="97552102 373750241 97552081#0"/>
+    </vehicle>
+    <vehicle id="deliv101" type="delivery" depart="3030.00">
+        <route edges="840059240#1 840059240#2 317468833 840059237#1 317468471 218991136#1 408821095#0 373750633#2 -317468483"/>
+    </vehicle>
+    <vehicle id="deliv102" type="delivery" depart="3060.00">
+        <route edges="218991073#1 218991073#2 218991073#3 218991073#4 323204750#2 323204750#3 -323204750#3"/>
+    </vehicle>
+    <vehicle id="deliv103" type="delivery" depart="3090.00">
+        <route edges="-97552125#0 97552102 373750238#2 373750238#3 373750235 -323204750#3 -323204750#2 -218991073#4 -218991073#3 -218991073#2 -218991073#1"/>
+    </vehicle>
+    <vehicle id="deliv104" type="delivery" depart="3120.00">
+        <route edges="-97552081#0 373750240 373750238#3 373750238#4 373750238#5 373750238#0 373750237 97552125#0"/>
+    </vehicle>
+    <vehicle id="deliv105" type="delivery" depart="3150.00">
+        <route edges="-840059240#0 -840059241 840059241 840059240#0 840059240#1 840059240#2 317468833 840059237#1 840059237#2 840059238#0"/>
+    </vehicle>
+    <vehicle id="deliv106" type="delivery" depart="3180.00">
+        <route edges="192225646#0 -192225646#0 -183766545#2 -183766545#1 183766545#1"/>
+    </vehicle>
+    <vehicle id="deliv107" type="delivery" depart="3210.00">
+        <route edges="97552081#1 -97552081#1 -97552081#0 373750240 373750238#3 373750238#4 373750238#5 373750238#0 373750237 97552125#0 97552125#1"/>
+    </vehicle>
+    <vehicle id="deliv108" type="delivery" depart="3240.00">
+        <route edges="218991136#1 408821095#0 373750633#2 373750633#3"/>
+    </vehicle>
+    <vehicle id="deliv109" type="delivery" depart="3270.00">
+        <route edges="-317468833 -840059240#2"/>
+    </vehicle>
+    <vehicle id="deliv110" type="delivery" depart="3300.00">
+        <route edges="97552102 373750238#2 373750238#3 373750235 -323204750#3 -323204750#2 323204750#2"/>
+    </vehicle>
+    <vehicle id="deliv111" type="delivery" depart="3330.00">
+        <route edges="218991117 218991073#4 373750633#0 373750633#1 -408821095#0 -218991136#1 218991136#1 408821095#0"/>
+    </vehicle>
+    <vehicle id="deliv112" type="delivery" depart="3360.00">
+        <route edges="-218991073#1 218991073#1 218991073#2 218991073#3 218991073#4 323204750#2"/>
+    </vehicle>
+    <vehicle id="deliv113" type="delivery" depart="3390.00">
+        <route edges="218991073#3 218991073#4 373750633#0 373750633#1 373750633#2 373750633#3 373750633#4 840059241 840059240#0 840059240#1 840059240#2 840059240#3 840059240#4"/>
+    </vehicle>
+    <vehicle id="deliv115" type="delivery" depart="3450.00">
+        <route edges="-218991073#3 218991073#3 218991073#4 -323204750#1 -323204750#0"/>
+    </vehicle>
+    <vehicle id="deliv118" type="delivery" depart="3540.00">
+        <route edges="840059244 373750633#1 373750633#2 373750633#3 -840059238#0 -840059237#2 -840059237#1"/>
+    </vehicle>
+</routes>

@@ -1,0 +1,23 @@
+<additional>
+    <tlLogic id="main_intersection" type="static" programID="1" offset="0">
+        <phase duration="30" state="GGGGrrrrGGGGrrrr"/>
+        <phase duration="5"  state="yyyyrrrryyyyrrrr"/>
+        <phase duration="30" state="rrrrGGGGrrrrGGGG"/>
+        <phase duration="5"  state="rrrryyyyrrrryyyy"/>
+    </tlLogic>
+    <tlLogic id="secondary_intersection" type="static" programID="1" offset="0">
+        <phase duration="25" state="GGrrrGGrrr"/>
+        <phase duration="4"  state="yyrrryyrrr"/>
+        <phase duration="25" state="rrGGGrrGGG"/>
+        <phase duration="4"  state="rryyyrryyy"/>
+    </tlLogic>
+    <tlLogic id="tertiary_intersection" type="static" programID="1" offset="0">
+        <phase duration="20" state="GrrGrr"/>
+        <phase duration="4"  state="yrryrr"/>
+        <phase duration="20" state="rrGGrr"/>
+        <phase duration="4"  state="rryyrr"/>
+    </tlLogic>
+    <!-- İhtiyaca göre ek trafik ışıkları tanımlanabilir -->
+</additional>
+
+
